@@ -13,3 +13,5 @@ zuul:
       path: /api-order/**
       ### 订单服务别名  zuul网关默认 整合ribbon 自动实现负载均衡轮询效果
       serviceId: app-order
+
+name: zhangsan
