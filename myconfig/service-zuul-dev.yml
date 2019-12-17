@@ -6,5 +6,6 @@ zuul:
     api-order: 
       path: /api-order/**
       serviceId: app-order
-
-name: laowang
+    api-pay: 
+      path: /api-pay/**
+      serviceId: app-pay
