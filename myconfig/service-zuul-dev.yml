@@ -1,10 +1,10 @@
 zuul: 
   routes: 
     api-member: 
-      path: /app-member/**
+      path: /api-member/**
       serviceId: app-member
     api-order: 
-      path: /app-order/**
+      path: /api-order/**
       serviceId: app-order
     api-pay: 
       path: /app-pay/**
